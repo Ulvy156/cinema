@@ -10,6 +10,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     CarouseselImg: typeof import('./src/components/carousesel-img.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElCarousel: typeof import('element-plus/es')['ElCarousel']
+    ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
     ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
     ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
@@ -17,6 +19,7 @@ declare module 'vue' {
     ElInput: typeof import('element-plus/es')['ElInput']
     FooterApp: typeof import('./src/components/footer-app.vue')['default']
     NavBar: typeof import('./src/components/nav-bar.vue')['default']
+    NewShow: typeof import('./src/components/new-show.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
